@@ -1,4 +1,4 @@
-(ns example-3
+(ns example-4
   (:use quil.core)
   )
 
@@ -30,7 +30,7 @@
   )
 
 (defsketch main
-  :title "Example 4 - concentric circles"
+  :title "Example 4 - sum of two sine functions"
   :setup setup
   :draw draw
   :size [screen-w screen-h]
